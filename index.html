@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise to Jenni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <div class="hearts-container" id="hearts-container"></div>
+    <div class="floating-hearts" id="floating-hearts"></div>
+    <div class="notification" id="notification">Click on the envelope to open the letter</div>
+    
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1>To you<span class="special-name floating">  Jenni </span></h1>
+            <p style="color: white; text-shadow: 0 0 10px rgba(255,0,119,0.5);">Click on the envelope for your surprise</p>
+        </div>
+        
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="envelope-flap"></div>
+                    <i class="fas fa-heart" style="color: white; font-size: 3rem; animation: pulse 1.5s infinite;"></i>
+                </div>
+                <div class="envelope-back">
+                    <div class="letter">
+                        <div class="paper-texture"></div>
+                        <div class="letter-content">
+                            <h2>Jenni</h2>
+                            <p>You are the light of my days</p>
+                            <p>and the reason for my smile.</p>
+                            <p>With you everything is better.</p>
+                            <div class="signature">I Love You</div>
+                        </div>
+                    </div>
+                    <div class="heart-button">
+						<p class="arrow">Click on the heart -></p>
+						<i class="fas fa-heart" style="color: #ff4081; font-size: 2.5rem; animation: pulse 1.5s infinite; position: absolute; bottom: 10px; right: 10px;" id="fa-heart"></i>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="fullscreen-letter" id="fullscreen-letter">
+        <div class="close-btn" id="close-btn">×</div>
+        <div class="paper-texture"></div>
+        <div class="fullscreen-letter-content">
+            <h2>My Jenni</h2>
+            <p>You are the light that illuminates my days</p>
+            <p>and the reason for my eternal smile.</p>
+            <p>With you, every moment is magical</p>
+            <p>and my heart beats faster.</p>
+            <p>Your presence transforms the ordinary into the extraordinary,</p>
+            <p>and every moment by your side is a treasure that I cherish.</p>
+            <p>Your smile is my joy, your gaze my refuge,</p>
+            <p>and your love, the engine that drives my dreams.</p>
+            <p>I love you more than words can express.</p>
+			<div class="heart-container">
+				<img src="./img/jenniandme.jpg" class="heart-img">
+<!-- 				<div class="floating-hearts">
+				  <span class="heart"></span>
+				  <span class="heart"></span>
+				  <span class="heart"></span>
+				  <span class="heart"></span>
+				  <span class="heart"></span>
+				</div> -->
+			</div>
+            <div class="signature">Forever, Your Man... Diego</div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
